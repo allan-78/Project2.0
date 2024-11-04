@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -46,4 +47,20 @@ select {
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    .table, .table tr, .table td, .table th {
+        display: block;
+        width: 100%;
+    }
+
+    h1, h2, form, .header, .footer {
+        padding: 10px;
+    }
+
+    form input, form select, form textarea, form button {
+        width: 100%;
+    }
 }
